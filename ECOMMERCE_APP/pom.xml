@@ -31,8 +31,9 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-websocket</artifactId>
+			<version>6.1.5</version> <!-- example vulnerable version -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
